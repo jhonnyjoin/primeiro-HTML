@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Seu nome"/>
+        <br />
+        <label for="email">Seu e-mail</label> <!--outra forma de indicar o tipo de conteudo-->
+        <input id="email" type="email" /> <!--FOR e ID para aparecer os emails ja usados-->
+        <br />
+        <input type="tel" placeholder="Seu telefone" />
+        <br />
+        <input type="number" max="10" min="0" step="2" />
+        <br />
+        <input type="file" /> <br />
+        <input type="color" /> <br />
+        <input type="checkbox" id="checkbox-termos" /> <label for="checkbox-termos">Aceitos os Termos de Uso</label> <!-- id e for para marcar quando clicar no texto--> 
+        <br />
+        <p>
+            Qual sua cor favorita?
+        </p>
+        <input type="radio" name="cor-favorita" id="cor-vermelho" /> <label for="cor-vermelho">Vermelho</label>
+        <input type="radio" name="cor-favorita" id="cor-verde" /> <label for="cor-verde">Verde</label>
+        <input type="radio" name="cor-favorita" id="cor-azul" /> <label for="cor-azul">Azul</label> 
+        <br /> <br />
+        <label>Qual seu filme favorito?</label> 
+        <select multiple>
+            <option>Filme A</option>
+            <option>Filme B</option>
+            <option>Filme C</option>
+        </select>
+        <br />
+        <textarea></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+        <br />
+        <label>
+            <select name="opcao">
+                <option value="opcao3">opcao 3</option>
+                <option value="opcao2">opcao 2</option>
+            </select>
+        </label>
+    </form>
+</body>
+</html>
